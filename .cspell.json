@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Duldulao",
+    "Oquendo",
+    "Mapúa",
+    "Makati",
+    "petchvm",
+    "petchvm",
+    "jacobduldulao",
+    "joduldulao",
+    "mymail",
+    "mapua",
+    "Credly",
+    "venv",
+    "pyproject",
+    "webp",
+    "browserslist",
+    "autoescape"
+  ],
+  "ignorePaths": [
+    "node_modules",
+    ".venv",
+    ".git",
+    "*.min.js",
+    "*.min.css",
+    "uv.lock"
+  ]
+}

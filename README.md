@@ -2,10 +2,10 @@
 
 A modern, responsive portfolio website built with Python and Jinja2 templates. This static site generator creates a professional portfolio showcasing projects, experience, education, and skills.
 
-🌐 **Live Site:** [https://pxtchvm.github.io](https://pxtchvm.github.io)
+🌐 **Live Site:** [https://petchvm.github.io](https://petchvm.github.io)
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://python.org)
-[![Jinja2](https://img.shields.io/badge/Jinja2-3.1.4-green.svg)](https://jinja.palletsprojects.com/)
+[![Jinja2](https://img.shields.io/badge/Jinja2-3.1.6-green.svg)](https://jinja.palletsprojects.com/)
 [![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-brightgreen.svg)](https://pages.github.com/)
 
 ## About
@@ -36,14 +36,14 @@ Get the portfolio running locally in three simple steps:
 
 ```bash
 # 1. Clone and navigate to the repository
-git clone https://github.com/Pxtchvm/pxtchvm.github.io.git
-cd pxtchvm.github.io
+git clone https://github.com/petchvm/petchvm.github.io.git
+cd petchvm.github.io
 
 # 2. Set up Python environment and install dependencies
 uv venv .venv
 source .venv/bin/activate  # On Unix/macOS
 # or: source .venv/Scripts/activate  # On Windows with Git Bash
-uv pip install -r requirements.txt
+uv sync
 
 # 3. Generate the portfolio website
 python generate_portfolio.py
@@ -72,7 +72,7 @@ Open `index.html` in your browser to view the generated portfolio.
 
 3. **Install dependencies:**
    ```bash
-   uv pip install -r requirements.txt
+   uv sync
    ```
 
 ### Generate Portfolio
@@ -85,15 +85,14 @@ This command generates:
 - `index.html` - Main portfolio page
 - `resume.html` - Detailed resume page
 
-Both files are created from their respective Jinja2 templates using data from `portfolio-pxtchvm.json`.
+Both files are created from their respective Jinja2 templates using data from `portfolio.json`.
 
 ## Project Structure
 
 ```
-pxtchvm.github.io/
+petchvm.github.io/
 ├── generate_portfolio.py      # Main generator script
-├── portfolio-pxtchvm.json     # Portfolio data (current)
-├── portfolio.json             # Portfolio data (template)
+├── portfolio.json             # Portfolio data
 ├── index_template.html        # Main page template
 ├── resume_template.html       # Resume page template
 ├── index.html                 # Generated main page
@@ -107,14 +106,14 @@ pxtchvm.github.io/
 │   └── app.js                # Main application logic
 ├── img/                       # SVG icons
 ├── portfolio_media/           # Images and media files
-├── CLAUDE.md                  # Development documentation
-└── requirements.txt           # Python dependencies
+├── pyproject.toml             # Python project configuration
+└── uv.lock                    # Dependency lock file
 ```
 
 ### Key Components
 
 - **`generate_portfolio.py`**: Main generator script that renders HTML templates with JSON data
-- **`portfolio-pxtchvm.json`**: Central data file containing all portfolio content (personal info, projects, experience, education, skills, etc.)
+- **`portfolio.json`**: Central data file containing all portfolio content (personal info, projects, experience, education, skills, etc.)
 - **`index_template.html`**: Jinja2 template for the main portfolio page
 - **`resume_template.html`**: Jinja2 template for the resume page
 - **`css/main.css`**: Primary stylesheet with responsive design and modern styling
@@ -124,7 +123,7 @@ pxtchvm.github.io/
 
 ### Updating Portfolio Content
 
-1. **Personal Information**: Edit the basic details in `portfolio-pxtchvm.json`:
+1. **Personal Information**: Edit the basic details in `portfolio.json`:
    ```json
    {
      "name": "Your Name",
@@ -156,7 +155,7 @@ pxtchvm.github.io/
 
 ### Adding New Sections
 
-1. Add data to `portfolio-pxtchvm.json`
+1. Add data to `portfolio.json`
 2. Update the relevant template file with Jinja2 syntax
 3. Add corresponding CSS styles if needed
 4. Regenerate with `python generate_portfolio.py`
@@ -185,7 +184,7 @@ For other hosting platforms:
 | Technology | Purpose | Version |
 |------------|---------|---------|
 | **Python** | Template processing and site generation | 3.x |
-| **Jinja2** | HTML templating engine | 3.1.4 |
+| **Jinja2** | HTML templating engine | 3.1.6 |
 | **HTML5** | Semantic markup and structure | Latest |
 | **CSS3** | Styling and responsive design | Latest |
 | **JavaScript** | Interactive functionality | ES6+ |
@@ -221,7 +220,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Jacob Oquendo Duldulao**
 - 📧 Email: [joduldulao@mymail.mapua.edu.ph](mailto:joduldulao@mymail.mapua.edu.ph)
 - 💼 LinkedIn: [jacobduldulao](https://www.linkedin.com/in/jacobduldulao/)
-- 🐙 GitHub: [Pxtchvm](https://github.com/Pxtchvm)
+- 🐙 GitHub: [petchvm](https://github.com/petchvm)
 - 🏆 Certifications: [Credly Profile](https://www.credly.com/users/jacob-duldulao)
 
 ---

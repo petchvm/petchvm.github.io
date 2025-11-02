@@ -1,7 +1,29 @@
 [project]
-name = "pxtchvm-github-io"
+name = "petchvm-github-io"
 version = "0.1.0"
-description = "Add your description here"
+description = "Personal portfolio website built with Python and Jinja2 templates"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.9"
+authors = [
+    { name = "Jacob Oquendo Duldulao", email = "joduldulao@mymail.mapua.edu.ph" }
+]
+license = { text = "MIT" }
+keywords = ["portfolio", "static-site-generator", "jinja2"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "jinja2>=3.1.4,<4.0.0",
+]
+
+[project.urls]
+Homepage = "https://petchvm.github.io"
+Repository = "https://github.com/petchvm/petchvm.github.io"

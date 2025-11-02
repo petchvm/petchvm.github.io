@@ -1,224 +1,352 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Jacob O. Duldulao",
+  "label": "Computer Science Student and Peer Adviser at Mapúa University",
+  "image_path": "portfolio_media/profile.webp",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "joduldulao@mymail.mapua.edu.ph",
+    "phone": "63945-166-1000",
+    "location": "6875 Washington St., Brgy. Pio Del Pilar, Makati City, Philippines"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
-  "base_url": "127.0.0.1:5500",
+  "summary": "Computer Science Student specializing in Artificial Intelligence at Mapúa University Makati where I work as a student assistant and peer adviser helping other students with their coursework.<br><br>Areas of interest include AI, machine learning, cloud computing, web development, and cybersecurity research.",
+  "base_url": "https://petchvm.github.io",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jacobduldulao/",
       "svg_path": "img/linkedin.svg"
     },
     {
-      "label": "Second Social",
-      "url": "https://sample.com",
+      "label": "GitHub",
+      "url": "https://github.com/petchvm",
       "svg_path": "img/github.svg"
+    },
+    {
+      "label": "Credly",
+      "url": "https://www.credly.com/users/jacob-duldulao",
+      "svg_path": "img/globe.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
+      "company": "Mapúa University Makati",
+      "position": "Student Assistant and Peer Adviser",
+      "url": "https://www.mapua.edu.ph/",
+      "start_date": "August 2025",
       "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "summary": "Work under the Center for Student Advising (CSA) Department providing services to support students in addressing academic, personal, social, and career adjustment problems.",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
+        "Assist students in developing their academic plans and help them adjust to college life",
+        "Provide peer adviser tutoring services to students struggling with coursework",
+        "Support CSA department in delivering comprehensive student advisory services"
+      ]
+    }
+  ],
+  "research_publications": [
+    {
+      "title": "Advanced Phishing Techniques Research",
+      "summary": "Literature review analyzing Adversary-in-the-Middle and Browser-in-the-Browser attacks in modern cybersecurity, published in CIT Journal.",
+      "url": "https://doi.org/10.2478/cait-2025-0004",
+      "journal": "CIT Journal of Computing and Information Technology",
+      "volume": "Volume 25, Issue 1",
+      "year": "2025",
+      "highlights": [
+        "Published research in CIT Journal of Computing and Information Technology",
+        "Analyzed sophisticated phishing methods that bypass traditional security",
+        "Developed practical defense recommendations for cybersecurity teams"
       ]
     },
     {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
+      "title": "Few-Shot Learning for Occupancy Detection Using Wi-Fi Beamforming Feedback",
+      "summary": "Privacy-focused system that detects and counts people using Wi-Fi beamforming feedback with meta-learning architecture. Ongoing capstone thesis.",
+      "type": "Capstone Thesis",
+      "status": "Ongoing",
+      "year": "2025",
       "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
+        "Combines few-shot learning with Wi-Fi beamforming data",
+        "Adapts to new environments with just 1-10 training samples",
+        "Led research methodology design and multi-environment data collection"
       ]
     }
   ],
   "projects": [
     {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
+      "title": "crAIvings - AI-Powered Restaurant Feedback Analysis",
+      "summary": "Web application leveraging AI to analyze restaurant reviews, providing actionable insights to restaurant owners.",
+      "url": "https://github.com/petchvm/ai-restaurant-feedback",
       "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
-        }
+        "AI-powered sentiment analysis and review categorization",
+        "Actionable insights dashboard for restaurant owners",
+        "Helps diners make informed decisions based on analyzed feedback"
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
+      "title": "FindMe: School Lost and Found System",
+      "summary": "Modern web-based Lost and Found Management System designed to streamline reporting, tracking, and claiming lost items on campus.",
+      "url": "https://github.com/petchvm/FindMe",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
-      ],
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
-        }
-      ]
-    }
-  ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
+        "Streamlined process for reporting and tracking lost items",
+        "Web-based interface for easy campus-wide access",
+        "Efficient matching system for lost and found items"
       ]
     },
     {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
+      "title": "Colemak Without AltGr",
+      "summary": "Modified Colemak keyboard layout for Windows without AltGr functionality, optimized for IDE usage with hotkey shortcuts.",
+      "url": "https://github.com/petchvm/colemak-without-AltGr",
       "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
+        "Custom keyboard layout modification for improved productivity",
+        "Capslock remapped to Backspace functionality",
+        "Optimized for development workflow in IDEs like VSCode"
       ]
     }
   ],
+  "professional_awards": [
+    {
+      "title": "Dean's and President's Lister",
+      "institution": "Mapúa University Makati",
+      "year": "Multiple Terms",
+      "description": "Academic excellence recognition with GWA of 1.39"
+    },
+    {
+      "title": "AWS Certified AI Practitioner",
+      "institution": "Amazon Web Services",
+      "year": "2025",
+      "description": "Foundation-level certification in AI and Machine Learning on AWS platform"
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner", 
+      "institution": "Amazon Web Services",
+      "year": "2025",
+      "description": "Foundation-level certification demonstrating cloud computing knowledge"
+    }
+  ],
+  "volunteer_experience": [],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
+      "institution": "Mapúa University Makati",
+      "location": "1191 Pablo Ocampo Sr. Extension, Brgy. Sta. Cruz, Makati City",
+      "url": "https://www.mapua.edu.ph/",
       "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+        "Bachelor of Science in Computer Science with specialization in Artificial Intelligence (AI)"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "honors": [
+        "Dean's and President's Lister"
+      ],
+      "gpa_cumulative": "1.39",
+      "gpa_major": "1.39",
+      "graduation_date": "2022 - Present"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "University of the Philippines Diliman",
+      "location": "Quezon City, Metro Manila",
+      "url": "https://upd.edu.ph/",
+      "degrees": [
+        "Bachelor of Science in Computer Engineering (Incomplete)"
+      ],
+      "honors": [],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "2020 - 2022"
+    },
+    {
+      "institution": "Don Bosco Technical Institute of Makati",
+      "location": "Chino Roces Avenue, Brgy. Pio Del Pilar, Makati City",
+      "url": "https://donboscomakati.edu.ph/",
+      "honors": [],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "2014 - 2020"
     }
   ],
-  "skills": [
+  "skill_categories": [
     {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "category": "Programming Languages",
+      "skills": [
+        {
+          "name": "Python",
+          "proficiency": 95,
+          "proficiency_label": "Advanced"
+        },
+        {
+          "name": "JavaScript",
+          "proficiency": 95,
+          "proficiency_label": "Advanced"
+        },
+        {
+          "name": "Java",
+          "proficiency": 75,
+          "proficiency_label": "Intermediate"
+        },
+        {
+          "name": "C++",
+          "proficiency": 60,
+          "proficiency_label": "Familiar"
+        }
+      ]
     },
     {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "category": "Web Development",
+      "skills": [
+        {
+          "name": "HTML & CSS",
+          "proficiency": 100,
+          "proficiency_label": "Expert"
+        },
+        {
+          "name": "React",
+          "proficiency": 75,
+          "proficiency_label": "Intermediate"
+        },
+        {
+          "name": "Node.js",
+          "proficiency": 75,
+          "proficiency_label": "Intermediate"
+        },
+        {
+          "name": "MongoDB",
+          "proficiency": 60,
+          "proficiency_label": "Familiar"
+        }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "skills": [
+        {
+          "name": "AWS (Certified)",
+          "proficiency": 75,
+          "proficiency_label": "Intermediate"
+        },
+        {
+          "name": "Git & GitHub",
+          "proficiency": 95,
+          "proficiency_label": "Advanced"
+        },
+        {
+          "name": "Linux & WSL",
+          "proficiency": 85,
+          "proficiency_label": "Proficient"
+        }
+      ]
+    },
+    {
+      "category": "Tools & Automation",
+      "skills": [
+        {
+          "name": "VSCode",
+          "proficiency": 100,
+          "proficiency_label": "Expert"
+        },
+        {
+          "name": "AHKv2 Scripting",
+          "proficiency": 95,
+          "proficiency_label": "Advanced"
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified AI Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "August 2025",
+      "url": "https://www.credly.com/badges/d2fb9874-a12b-4c7f-8fd8-e962ab2d00c5/public_url",
+      "credential_id": "d2fb9874-a12b-4c7f-8fd8-e962ab2d00c5"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "July 2025",
+      "url": "https://www.credly.com/badges/ef9dd933-7a1a-4918-98de-6dd281a83090/public_url",
+      "credential_id": "ef9dd933-7a1a-4918-98de-6dd281a83090"
+    },
+    {
+      "name": "Big Data, Artificial Intelligence, and Ethics",
+      "issuer": "UC Davis",
+      "date": "June 2025",
+      "url": "https://www.coursera.org/account/accomplishments/verify/TCXWZKELV971",
+      "credential_id": "TCXWZKELV971"
+    },
+    {
+      "name": "Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
+      "issuer": "Stanford University",
+      "date": "March 2024",
+      "url": "https://www.coursera.org/account/accomplishments/records/KUDP5H8R4VU7",
+      "credential_id": "KUDP5H8R4VU7"
+    },
+    {
+      "name": "Introduction to Artificial Intelligence",
+      "issuer": "IBM",
+      "date": "December 2023",
+      "url": "https://www.coursera.org/account/accomplishments/records/XD4NLHPJ942R",
+      "credential_id": "XD4NLHPJ942R"
+    },
+    {
+      "name": "Foundations of Cybersecurity",
+      "issuer": "Google",
+      "date": "September 2024",
+      "url": "https://www.coursera.org/account/accomplishments/records/ZPK2I4YK99S4",
+      "credential_id": "ZPK2I4YK99S4"
+    },
+    {
+      "name": "Introduction to Generative AI and Prompt Engineering",
+      "issuer": "Mapúa University",
+      "date": "May 2025",
+      "url": "https://www.coursera.org/account/accomplishments/records/65JTZCSQS92N",
+      "credential_id": "65JTZCSQS92N"
+    },
+    {
+      "name": "Machine Learning for All",
+      "issuer": "University of London",
+      "date": "January 2024",
+      "url": "https://www.coursera.org/account/accomplishments/records/G2K49XH4EAD6",
+      "credential_id": "G2K49XH4EAD6"
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
+      "name": "Open Source Contributions",
+      "summary": "Contributing to open source projects and building tools for the developer community"
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
+      "name": "Competitive Programming",
+      "summary": "Solving algorithmic challenges and participating in programming contests"
+    },
+    {
+      "name": "Building Personal Automation Tools",
+      "summary": "Creating scripts and tools using AHKv2 and Python to automate daily workflows"
+    },
+    {
+      "name": "Typing",
+      "summary": "Practicing and improving typing speed and accuracy, including custom keyboard layouts"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Fluent"
     },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
+      "language": "Filipino",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Ilokano",
+      "fluency": "Native Speaker"
     }
   ],
   "references": [
     {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+      "name": "Jennifer P. Tecson",
+      "relation": "CSA Staff - Center for Student Advising",
+      "reference": "Jacob really cares about helping other students and he's good at it. He knows his stuff and actually listens when students are struggling. You can count on him to show up and do the work.",
+      "email": "jmpostrado@mapua.edu.ph"
     },
     {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      "name": "Leanna Mae A. Cruz",
+      "relation": "Life Coach - Center for Student Advising",
+      "reference": "As Jacob's supervisor, working with Jacob has been great. He just gets how to talk to students who are having trouble with their classes. He's smart but doesn't make people feel dumb, and students actually come back to him for help.",
+      "email": "lmacruz@mapua.edu.ph"
     }
   ]
 }
